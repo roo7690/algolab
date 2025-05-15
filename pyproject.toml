@@ -1,0 +1,26 @@
+[project]
+name = "algolab"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "roosevelt@leroo.io"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4"
+dependencies = [
+    "qiskit (==1.2)",
+    "qiskit-ibm-runtime (<0.38)",
+    "pennylane (>=0.41,<0.42)",
+    "pennylane-qiskit (>=0.41.0.post0,<0.42.0)",
+    "tensorflow (>=2.19.0,<3.0.0)",
+    "keras (>=3.9.2,<4.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "pulser (>=1.4.0,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

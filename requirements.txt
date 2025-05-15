@@ -1,0 +1,9 @@
+qiskit<=1.3
+pennyLane
+qiskit-ibm-runtime
+pulser
+emu-mps
+numpy
+pylatexenc
+matplotlib
+ipykernel
