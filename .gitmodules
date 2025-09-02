@@ -1,0 +1,3 @@
+[submodule "iqucodefest-2025"]
+	path = iqucodefest-2025
+	url = github:algolab-iqucodefest-2025/iQuCodeFest_2025.git

@@ -15,7 +15,8 @@ dependencies = [
     "tensorflow (>=2.19.0,<3.0.0)",
     "keras (>=3.9.2,<4.0.0)",
     "matplotlib (>=3.10.3,<4.0.0)",
-    "pulser (>=1.4.0,<2.0.0)"
+    "pulser (>=1.4.0,<2.0.0)",
+    "pylatexenc (>=2.10,<3.0)"
 ]
 
 [tool.poetry]
